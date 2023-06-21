@@ -1,81 +1,28 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-	<div class="container">
-<!-- 		 first_view -->
-		<div class="first_scenario">
-				<div>
-					<label for="player-1">Player 1</label>
-					<input type="text"  id="player-1" placeholder="enter name">
-			   </div>
-			   <div>
-					<label for="player-2">Player 2</label>
-					<input type="text"  id="player-2" placeholder="enter name">
-			   </div>
-			<button type="submit">Start Game</button>
-	    </div>
-<!-- second View -->
-	<div class="second_Sernario">
-		<h1>Tic Tac Toe</h1>
-			<h3 id="heading1"></h3>
-				<div class="div_container">
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-				</div>
-	</div>
-						
-	<div class="third_Sernario">
-		<h1>Tic Tac Toe</h1>
-		<h3 id="heading1"></h3>
-				<div class="div_container">
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-				</div>
-	</div>
-
-	<div class="forth_Sernario">
-		<h1>Tic Tac Toe</h1>
-		<h3 id="heading1"></h3>
-				<div class="div_container">
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-						<div id="box"></div>
-				</div>
-	</div>
-				
-	</div>
-				
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+      <div>
+        <h1 class="header">Tic Tac Toe</h1>
+        <div class="message header"></div>
+      </div>
+      <div class="details">
+        <label for="player1">Player 1</label>
+        <input type="text" name="player1" placeholder="enter name" id="player1">
+        <br>
+        <label for="player2">Player 2</label>
+        <input type="text" name="player2" placeholder="enter name" id="player2">
+        <br>
+        <button type="submit" id="submit">Start Game</button>
+      </div>
+      <div class="game">
+      </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
